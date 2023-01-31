@@ -1,5 +1,5 @@
 # ChemFlux-X
-ChemFlux-X is a web based application that allows users to view, upload, comment on, and share educative contents related to the field of Chemistry. It will be available for users on both desktop and mobile devices.
+ChemFlux-X is a web based application that allows users to view, upload, comment on, and share educative contents related to the field of Chemistry. This is expected to be available to users on both desktop and mobile devices.
 
 Project Title: The Democratization of Chemistry with a Content Sharing Web Based Application
 
