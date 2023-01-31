@@ -1,0 +1,38 @@
+
+.side-bar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  background-color: white;
+  border-right-style: solid;
+  border-right-color: rgb(240, 240, 240);
+  border-right-width: 2px;
+  z-index: 100;
+}
+
+.side-bar p {
+  font-size: 12px;
+}
+
+.side-bar-link {
+  height: 74px;
+  padding-top: 20px;
+  text-align:  center;
+}
+
+.side-bar-link:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.side-bar-link::placeholder {
+  font-size: 2px;
+}
+
+.side-bar img {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 4px;
+}

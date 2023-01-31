@@ -1,0 +1,233 @@
+.header {
+    display: flex;
+    flex: 1;
+    height: 80px;
+    margin: 0;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(240, 240, 240);
+    background-color: white;
+    z-index: 100;
+  }
+  
+  .left-section {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .menu {
+    height: 25px;
+    margin-left: 40px;
+    margin-right: 35px;
+  }
+  
+  .menu:hover {
+    cursor: pointer;
+  }
+  
+  .digital-chemistry-logo {
+    height: 40px;
+    padding-left: 25px;
+  }
+  
+  .digital-chemistry-logo {
+    cursor: pointer;
+  }
+  
+  .middle-section {
+    flex: 1;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    width: 0;
+  }
+  
+  .search-bar {
+    flex: 1;
+    height: 45px;
+    font-family: roboto, arial;
+    font-size: 20px;
+    border-color:rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    position: relative;
+  }
+  
+  .search-bar::placeholder {
+    font-size: 20px;
+  }
+  
+  .search-icon {
+    height: 49px;
+    width: 66px;
+    margin-right: 10px;
+    border: none;
+  }
+  
+  .voice-search-icon {
+    height: 30px;
+    width: 30px;
+    border-width: 0.80px;
+    border-color: solid;
+    border-color: rgb(240, 240, 240);
+    margin-left: -4px;
+    position: relative;
+  }
+  
+  .search-icon .tooltip,
+  .microphone-icon .tooltip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: roboto, arial;
+    background-color: rgb(156, 155, 155);
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  
+  .search-icon:hover .tooltip,
+  .microphone-icon:hover .tooltip {
+    opacity: 1;
+  }
+  
+  .search-icon:hover,
+  .microphone-icon:hover {
+    cursor: pointer;
+  }
+  
+  .microphone-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+  }
+  
+  .microphone-icon-search {
+    height: 30px;
+    width: 30px;
+    border-width: 1px;
+    border-color: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-left: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 0;
+  }
+  
+  .video-upload-icon {
+    height: 25px;
+  }
+  
+  .app-menu {
+    height: 25px;
+  }
+  
+  .notification-image {
+    position: relative;
+    height: 25px;
+  }
+  
+  .notification-count {
+    font-family: roboto, arial;
+    font-size: 8px;
+    color: white;
+    background-color: red;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 50%;
+    top: -5px;
+    right: 17px;
+    position: absolute;
+  }
+  
+  .notification-count:hover {
+    cursor: pointer;
+  }
+  
+  .user-picture {
+    height: 35px;
+    border-radius: 25px;
+  }
+  
+  .video-upload-icon:hover,
+  .app-menu:hover,
+  .notification-image,
+  .user-picture {
+    cursor: pointer;
+  }
+  
+  .video-upload-container,
+  .app-menu-container,
+  .user-picture-container,
+  .notifications-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .user-picture .tooltip,
+  .video-upload-container .tooltip,
+  .app-menu-container .tooltip,
+  .notifications-container .tooltip,
+  .user-picture-container .tooltip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: roboto, arial;
+    background-color: rgb(156, 155, 155);
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    margin-bottom: -20;
+  }
+  
+  .user-picture:hover .tooltip,
+  .video-upload-container:hover .tooltip,
+  .app-menu-container:hover .tooltip,
+  .notifications-container:hover .tooltip,
+  .user-picture-container:hover .tooltip {
+    opacity: 1;
+  }
+  
+  .user-picture:hover .tooltip,
+  .video-upload-container:hover .tooltip,
+  .app-menu-container:hover .tooltip,
+  .notifications-container:hover .tooltip,
+  .user-picture-container:hover .tooltip {
+    cursor: pointer;
+  }
